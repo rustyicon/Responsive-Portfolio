@@ -7,49 +7,64 @@
   <title>About | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
-
-      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
-
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+  
+  <div class="layout-transparent mdl-layout mdl-js-layout">
+    <header  class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Sharon Zavala</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="index.html">About</a>
+          <a class="mdl-navigation__link" href="portfolio.html">Portfolio</a>
+          <a class="mdl-navigation__link" href="contact.html">Contact</a>
+        </nav>
       </div>
-    </section>
+    </header>
+
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Connect With Me</span>
+      <nav class="mdl-navigation">
+        <a href="https://github.com/rustyicon"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/sharon-zavala/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+      </nav>
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 2016 Your Name
+
+
+  <main class="mdl-layout__content">
+    
+<!-- change all this to mdl -->
+
+    <section class="main-section">
+      <h1>Bio</h1>
+
+      <img src="assets/images/IMG_4919.JPG" class="auth-image" alt="Sharon Zavala">
+
+      <p> I'm a fun loving nerd raised in Compton, Ca. Growing up watching people struggle and experiencing discrimination as LGBTQ, helped shape my passion for social justice. Through web development, I hope to build resources and make information more accessible. </p>
+
+      <p></p>
+
+    </section>
+   
+
+  </main>
+
+   <footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">Copyright &copy; 2016 Sharon Zavala</div>
     </div>
   </footer>
+
+</div>
+
+
+
+
 </body>
 
 </html>
